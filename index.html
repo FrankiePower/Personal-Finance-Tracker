@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Expense Tracker</title>
+    <title>Finance Tracker</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Expense Tracker</h1>
+    <h1>Personal Finance Tracker </h1>
 
     <main>
       <header>
@@ -21,7 +21,7 @@
           <span id="income">$0.00</span>
         </div>
         <div>
-          <h5>Expense</h5>
+          <h5>Expenses</h5>
           <span id="expense">$0.00</span>
         </div>
       </header>
@@ -40,7 +40,7 @@
             <label for="type">
               <input type="checkbox" name="type" id="type" />
               <div class="option">
-                <span>Expense</span>
+                <span>Expenses</span>
                 <span>Income</span>
               </div>
             </label>
@@ -48,6 +48,13 @@
           <div>
             <label for="name">Name</label>
             <input type="text" name="name" required />
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
           </div>
           <div>
             <label for="amount">Amount</label>
